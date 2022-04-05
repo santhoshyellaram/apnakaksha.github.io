@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tables</title>
+    <style>
+      td {
+        width: 100px;
+        height: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <td></td>
+        <td style="background: red"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="3" style="background: red"></td>
+        <!-- <td></td>
+        <td></td> -->
+      </tr>
+      <tr>
+        <td></td>
+        <td style="background:red" ></td>
+        <td></td>
+      </tr>
+    </table> 
+    <br>
+    <table border="1">
+        <tr>
+            <td rowspan="3" style="background:red"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <!-- <td></td> -->
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <!-- <td></td> -->
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <table border="1" style="float: right; position: absolute; left: 50%; top:8px " >
+        <tr>
+            <td rowspan="2" style="background:red"></td>
+            <td rowspan="3" style="background:red"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td ></td>
+            <!-- <td ></td> -->
+            <!-- <td></td> -->
+           
+        </tr>
+        <tr>
+            <td></td>
+            <!-- <td></td> -->
+            <td></td> 
+        </tr>
+        <br>
+        <table border="1" style="float:right; position:absolute; left:50%; top:146px">
+            <tr>
+                <td></td>
+                <td ></td>
+                <td rowspan="2" style="background:red;"></td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2" style="background:red;"></td>
+                <td></td>
+                <!-- <td></td> -->
+                
+            </tr>
+            <tr>
+                <td ></td>
+                <td ></td>
+                <!-- <td></td> -->
+                
+            </tr>
+        </table>
+        <hr>
+        <h1 style="color: blueviolet; text-decoration: underline;">School Time Table:</h1>
+        <table border="1px" cellspacing="0" style="text-align:center">
+            <th colspan="7" style="padding:10px">Time Table</th>
+            <tr>
+                <th rowspan="6" style="width:25px; padding:15px">Hours</th>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+                <td>Sat</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Sports</td>
+                <td>Agriculture</td>
+
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Sports</td>
+                <td>Agriculture</td>
+
+            </tr>
+            <tr>
+              <th colspan="7" style="padding:5px">Lunch</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td >Sports</td>
+                <td rowspan="2">Agriculture</td>
+
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td >Project</td>
+                <!-- <td></td> -->
+
+            </tr>
+        </table>
+        <hr>
+        <h2>Student Marks</h2>
+        <table border="2" cellspacing="0" style="text-align:center;">
+            <tr>
+                <th colspan="7" style="padding:10px">Subjet(Max. Marks)</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Student</th>
+                <th>Maths</th>
+                <th>Chemistry</th>
+                <th>Physics</th>
+                <th>Geography</th>
+                <th>History</th>
+                <th>Computer <br> Science</th>
+            </tr>
+            <tr>
+                <td>(150)</td>
+                <td>(130)</td>
+                <td>(120)</td>
+                <td>(100)</td>
+                <td>(60)</td>
+                <td>(40)</td>
+            </tr>
+            <tr>
+                <td>Ayush</td>
+                <td>90</td>
+                <td>50</td>
+                <td>90</td>
+                <td>60</td>
+                <td>70</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Aman</td>
+                <td>90</td>
+                <td>50</td>
+                <td>90</td>
+                <td>60</td>
+                <td>70</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Sajal</td>
+                <td>90</td>
+                <td>50</td>
+                <td>90</td>
+                <td>60</td>
+                <td>70</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Rohit</td>
+                <td>90</td>
+                <td>50</td>
+                <td>90</td>
+                <td>60</td>
+                <td>70</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Muskan</td>
+                <td>90</td>
+                <td>50</td>
+                <td>90</td>
+                <td>60</td>
+                <td>70</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Tarun</td>
+                <td>90</td>
+                <td>50</td>
+                <td>90</td>
+                <td>60</td>
+                <td>70</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Tanvi</td>
+                <td>90</td>
+                <td>50</td>
+                <td>90</td>
+                <td>60</td>
+                <td>70</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td colspan="7" style="padding:5px; text-align:left"   >Total</td>
+                
+            </tr>
+        </table>
+        <hr>
+        <table border="2" cellspacing="0" cellpadding="" style="text-align:center; color:red" >
+            <tr>
+                <td rowspan="2">A</td>
+                <td>B</td>
+                <td rowspan="3">D</td>
+                <td colspan="2" >E</td>
+                <td >F</td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td >C</td>
+                <td rowspan="2">G</td>
+                <td rowspan="2">H</td>
+                <td rowspan="2">I</td>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td colspan="2" >J</td>
+                <!-- <td></td> -->
+                <!-- <td></td>
+                <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td colspan="3">K</td>
+                <td>L</td>
+                <td colspan="2">M</td>
+                <!-- <td></td>
+                <td></td> -->
+            </tr>
+        </table>
+        <hr>
+        <table border="1" cellspacing="1" cellspacing="" style="text-align:center">
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="4"  style="padding: 10px;">Seminar</th>
+                <!-- <td></td> -->
+                <!-- <td></td>  -->
+                <!-- <td></td>  -->
+            </tr>
+            <tr>
+                <th colspan="2"  style="padding: 5px;">Schedule</th>
+                <th colspan="2" rowspan="2">Topic</th>
+                <!-- <td></td> -->
+                <!-- <td></td>
+                <td></td> -->
+            </tr>
+            <tr>
+                <th  style="padding: 5px;" >Begin</th>
+                <th  style="padding: 5px;">End</th>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 a.m</td>
+                <td rowspan="2">5:00 p.m</td>
+                <td colspan="2">Introduction to XML</td>
+                <!-- <td></td>  -->
+            </tr>
+            <tr>
+                <td colspan="2">Validity: DTP and Relax NG</td>
+                <!-- <td></td> -->
+                <!-- <td></td>  -->
+                <!-- <td></td>  -->
+                <!-- <td></td>  -->
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 a.m</td>
+                <td>11:00 am</td>
+                <td colspan="2">XPath</td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td>11:00 a.m</td>
+                <td>2:00 p.m</td>
+                <td colspan="2">XSL Transormation</td>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td>2:00 p.m</td>
+                <td>5:00 p.m</td>
+                <td></td>
+                <td></td> 
+                <!-- <td></td>  -->
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m</td>
+                <td> 12:00 p.m</td>
+                <td colspan="2">XSL Formatting Objects</td>
+                <!-- <td></td> -->
+            </tr>
+        </table>
+        <hr>
+        <table border="1" cellspacing="0" style="text-align:center">
+            <h1>Time Table</h1>
+            <tr>
+                <th>Day/Period</th>
+                <th>I <br>9:30-10:20</th>
+                <th>II <br>10:20-11:10</th>
+                <th>III <br>11:10-12:00</th>
+                <th>IV <br>12:00-12:40</th>
+                <th>V <br>12:40-1:30</th>
+                <th>VI <br>1:30-2:20</th>
+                <th>VII <br>2:20-3:10</th>
+                <th>VII <br>3:10-4:00</th>
+                
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td>Engish</td>
+                <td>Maths</td>
+                <td>Chemistry</td>
+                <!-- <td rowspan="6" style="writing-mode: vertical-lr;
+                text-orientation: upright;">LUNCH</td> -->
+                <td rowspan="6"><h3>L <br>U <br> N <br> C <br>H</h3></td>
+                <td colspan="3">LAB</td>
+                <td>Physics</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td colspan="3">LAB</td>
+                <!-- <td></td> -->
+                <td>Engish</td>
+                <td>Chemistry</td>
+                <td>Maths</td>
+                <td>SPORTS</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td>Engish</td>
+                <!-- <td></td> -->
+                <td>Chemistry</td>
+                <td colspan="3">Library</td>
+                
+            </tr>
+            <tr>
+                <th>Thursdays</th>
+                <td>Physics</td>
+                <td>Engish</td>
+                <td>Chemistry</td>
+                <!-- <td></td> -->
+                <td colspan="3">LAB</td>
+                <td>Maths</td>
+                
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td colspan="3">LAB </td>
+                <!-- <td></td> -->
+                <td>Maths</td>
+                <td>Chemistry</td>
+                <td>English</td>
+                <td>physics</td>
+               
+                
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td>English</td>
+                <td>Chemistry</td>
+                <td>Maths</td>
+                <!-- <td></td> -->
+                <td colspan="3">SEMINAR</td>
+                <td>SPORTS</td>
+                
+            </tr>
+            
+        </table>
+  
+  
+    </body>
+</html>
